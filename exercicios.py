@@ -26,6 +26,9 @@ while True:
         break
 
 for c, v in livros.items():
+    print(c)
+    print("-=-=-=-=-=-=")
     for i, j in v.items():
+        
         print(i, ": ", j)
     print("-----")
